@@ -9,6 +9,7 @@ class Header extends Component {
       var jobDescription = this.props.data.jobDescription;
       var employer = this.props.data.employer;
       var city = this.props.data.address.city;
+      var major = this.props.data.major;
       var networks = this.props.data.social.map(function (network) {
         return (
           <li key={network.name}>
@@ -52,11 +53,6 @@ class Header extends Component {
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#testimonials">
-                Testimonials
-              </a>
-            </li>
-            <li>
               <a className="smoothscroll" href="#contact">
                 Contact
               </a>
@@ -68,9 +64,8 @@ class Header extends Component {
           <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
             <h3>
-              I'm a <span>{city}</span> based <span>{occupation}</span>,
-              {description}
-              <span>{employer}</span> where I<span> {jobDescription}</span>.
+              I'm a <span>{city}</span> based <span>{occupation}</span>, a 4th year student studying 
+              <span> {major}</span> in <span>University of Toronto</span>. I love making software accessible to all.
             </h3>
             <hr />
             <ul className="social">{networks}</ul>
