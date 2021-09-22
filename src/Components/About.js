@@ -34,12 +34,12 @@ class About extends Component {
 						         {state}, {zip}
                    </span><br />
 						   <span>{phone}</span><br />
-                     <span><a href="mailto:tbakerx@gmail.com">{email}</a></span>
+                     <span><a href="mailto:liuming.huang@mail.utoronto.com">{email}</a></span>
 					   </p>
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={resumeDownload} rel='noopener noreferrer' className="button" target="_blank" download><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>

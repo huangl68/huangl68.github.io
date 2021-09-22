@@ -16,7 +16,7 @@
       "zip": "M2K 0B1"
     },
     "website": "https://www.liuminghuang.com",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "RESUME.pdf",
     "social": [
       {
         "name": "linkedin",
@@ -50,92 +50,99 @@
     ],
     "work": [
       {
+        "company": "Visa Consulting & Analytics",
+        "title": "Software Developer (Remote Internship)",
+        "location": "Shanghai, China",
+        "years": "Apr 2021 - Aug 2021",
+        "description":  ["Researched in open source projects about Federated Machine Learning and measured the runtime & accuracy of algorithms", 
+          "Developed a Python Dashboard used by 10 staffs to simply drag & drop datasets" , 
+          "Used Docker Compose to orchestrate multiple containers that work together and set up environments"]
+      },
+      {
         "company": "Proofpoint",
+        "location": "Toronto, Canada",
         "title": "QA Automation Engineer Co-op",
         "years": "May 2020 - Aug 2021",
         "description":  ["Built automation framework using Selenium and C# to automate testing of web applications", 
           "Created new helper functions by using REST API to generate test data, and improved average 50% running time reduction during each test run" , 
-          "Collaborated closely with Developer, DevOps, PM to allocate resources and triage on customer tickets",
-          "Led a team of two to work closely with scrum team members to evangelize an emphasis on quality through the entire SDLC", "Assessed and analyzed user stories and participated in sprint planning, review sessions, scrum meetings and developed test cases, test data and test reports" ,
-          "Created and managed defect tracking using JIRA. Maintained QA dashboards for up to date test reports  and test status in JIRA", 
-          "Document test cases and instructions to be executed by manual teams"]
+          "Experienced in Agile Development process for diverse requirements"]
       }
     ],
     "skills": [
       {
-        "name": "Git",
-        "description": "I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
-        "image": "git.jpg"
-      },
-      {
         "name": "Java",
-        "description": "Java was my first programming language that I started using in college years ago. It is by far the language I am most familiar with in terms of data-structure and algorithm programming.",
+        "description": "I have developed several projects using Java. Frameworks like Spring boot also makes developmwent much easier. ",
         "image": "java.jpg"
       },
+      
       {
         "name": "React Js",
-        "description": "I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website template (link below in portfolio) which I used as a starting point for this personal site.",
+        "description": "The most popular frontend framework now. I have built ReactJS based websites such as budget planning website and my personal website.",
         "image": "react.jpg"
-      },
-      {
-        "name": "Meteor JS",
-        "description": "I enjoy MeteorJS for it's ease of configuration and its ability to get a full stack prototype up and running quickly. I used MeteorJS in a team for a Startup Programming class in UVIC in conjunction with React to build the MVP for Smirkspace (below in portfolio)",
-        "image": "meteor.jpg"
       },
 
       {
+        "name": "Git",
+        "description": "I use Git for all of my projects so far. I have used Git for version control for personal projects and also in teams.",
+        "image": "git.jpg"
+      },
+
+      
+      {
+        "name": "Python",
+        "description": "It is by far the language I am most familiar with in terms of data-structure and algorithm programming. I also use Python for machine learning development.",
+        "image": "python.jpg"
+      },
+      {
+        "name": "MongoDB",
+        "description": "I have used many different database systems. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
+        "image": "mongo.jpg"
+      },
+      {
+        "name": "AWS",
+        "description": "I use AWS Route 53 services to register and manage my domains. I'm also preparing for AWS certified developer associate exam.",
+        "image": "aws.jpg"
+      },
+      
+      {
         "name": "Node JS",
-        "description": "Node JS is my server-side scripting language of choice. The bulk of my experience with it has been in conjunction with MeteorJS-based projects",
+        "description": "Node JS is my server-side scripting language of choice. It makes things easier for building and deploying.",
         "image": "node.jpg"
       },
       {
         "name": "Bootstrap 4",
         "description": "I use Bootstrap more often than not when designing the layout for my sites. It is the framework I am most familiar with and can therefore design more quickly than with others.",
         "image": "bootstrap.jpg"
-      },
-      {
-        "name": "MongoDB",
-        "description": "I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
-        "image": "mongo.jpg"
-      },
-      {
-        "name": "Heroku",
-        "description": "I use Heroku as my hosting platform for most of my projects because so far they are all unpaid and their free tier is convenient. I also appreciate its integration with Github for such simple deployment.",
-        "image": "heroku.jpg"
       }
+      
+      
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Game Center App",
+        "category": "A game center application consists of three different games",
+        "image": "2048.png",
+        "url": "https://github.com/huangl68/GameCenter"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Budgeting Web Application",
+        "category": "Web application to track monthly spent",
+        "image": "Budgeting-App.png",
+        "url": "https://github.com/huangl68/BudgetWebApp"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Liver Cancer Subtype Detection Data Analysis",
+        "category": "Using python & machine learning algorithms to seperate patients into groups.",
+        "image": "Subtype-Detection.png",
+        "url": "https://github.com/huangl68/Subtype-Detection"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Personal Website",
+        "category": "A React based personal website",
+        "image": "resume-website.png",
+        "url": "http://www.liuminghuang.com"
       }
     ]
   },
